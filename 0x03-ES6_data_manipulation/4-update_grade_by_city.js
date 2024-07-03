@@ -10,17 +10,11 @@
  * @param {number} newGrades[].studentId - The ID of the student.
  * @param {string} newGrades[].grade - The new grade of the student.
  * @param {string} city - The city to filter students by.
-<<<<<<< Updated upstream
  *
  * @returns {Array<Object>} An array of student objects in the
  * specified city with updated grades. If a student's grade is not
  * found in the newGrades array, it defaults to 'N/A'.
  *
-=======
- *
- * @returns {Array<Object>} An array of student objects in the specified city with updated grades. If a student's grade is not found in the newGrades array, it defaults to 'N/A'.
- *
->>>>>>> Stashed changes
  */
 export default function updateStudentGradeByCity(students, city, newGrades) {
   const defaultGrade = { grade: 'N/A' };
