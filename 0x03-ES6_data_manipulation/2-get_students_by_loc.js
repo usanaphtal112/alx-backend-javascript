@@ -7,7 +7,8 @@
  * @param {string} students[].location - The location of the student.
  * @param {string} city - The city to filter students by.
  * 
- * @returns {Array<Object>} An array of student objects who are located in the specified city. If the input is not an array, returns an empty array.
+ * @returns {Array<Object>} An array of student objects who are located
+ * in the specified city. If the input is not an array, returns an empty array.
  * 
  */
 export default function getStudentsByLocation(students, city) {

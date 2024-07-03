@@ -5,12 +5,15 @@
  * @param {number} students[].id - The unique identifier of the student.
  * @param {string} students[].firstName - The first name of the student.
  * @param {string} students[].location - The location of the student.
- * @param {Array<Object>} newGrades - An array of objects containing student IDs and their new grades.
+ * @param {Array<Object>} newGrades - An array of objects containing
+ * student IDs and their new grades.
  * @param {number} newGrades[].studentId - The ID of the student.
  * @param {string} newGrades[].grade - The new grade of the student.
  * @param {string} city - The city to filter students by.
  * 
- * @returns {Array<Object>} An array of student objects in the specified city with updated grades. If a student's grade is not found in the newGrades array, it defaults to 'N/A'.
+ * @returns {Array<Object>} An array of student objects in the
+ * specified city with updated grades. If a student's grade is not
+ * found in the newGrades array, it defaults to 'N/A'.
  * 
  */
 export default function updateStudentGradeByCity(students, city, newGrades) {

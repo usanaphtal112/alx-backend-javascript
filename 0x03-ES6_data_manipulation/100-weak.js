@@ -9,9 +9,12 @@ export const weakMap = new WeakMap();
 const MAX_ENDPOINT_CALLS = 5;
 
 /**
- * Tracks the number of times an API endpoint is queried and throws an error if the endpoint is queried too many times.
+ * Tracks the number of times an API endpoint is queried and 
+ * throws an error if the endpoint is queried too many times.
  * 
- * This function uses a WeakMap to keep track of the number of times each endpoint is queried. If the number of queries to an endpoint exceeds `MAX_ENDPOINT_CALLS`, an error is thrown.
+ * This function uses a WeakMap to keep track of the number of
+ * times each endpoint is queried. If the number of queries to an
+ * endpoint exceeds `MAX_ENDPOINT_CALLS`, an error is thrown.
  * 
  * @param {Object} endpoint - The API endpoint being queried.
  * 

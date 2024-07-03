@@ -6,7 +6,7 @@
  * @param {string} students[].firstName - The first name of the student.
  * @param {string} students[].location - The location of the student.
  * 
- * @returns {Array<number>} An array of student IDs. If the input is not an array, returns an empty array.
+ * @returns {Array<number>} An array of student IDs. If the input is not an array
  * 
  */
 export default function getListStudentIds(students) {
